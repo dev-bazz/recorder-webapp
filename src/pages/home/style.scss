@@ -1,4 +1,14 @@
+:is(nav, section) {
+	background-color: white;
+}
+
+body {
+	background-color: #f4f6f8;
+}
+
 section {
+	margin-top: 8px;
+	padding-block: 50px;
 	header {
 		text-align: center;
 
