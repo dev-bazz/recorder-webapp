@@ -24,7 +24,10 @@ export function Home() {
 						</div>
 					</div>
 					<div className="">
-						<img src={heroIMG} />
+						<img
+							draggable="false"
+							src={heroIMG}
+						/>
 					</div>
 				</div>
 			</section>

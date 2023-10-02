@@ -1,21 +1,23 @@
 import "./style.scss";
 import logo from "./assets/helpOutDesktopLogo.png";
+import { Link } from "react-router-dom";
 export function GetStarted() {
 	return (
 		<div className="getStarted">
 			<nav>
 				<div className=" container logo">
-					<img
-						src={logo}
-						alt=" HelpMeOut"
-					/>
+					<Link to="/">
+						<img
+							src={logo}
+							alt=" HelpMeOut"
+						/>
+					</Link>
 				</div>
 			</nav>
 
 			<main>
 				<header>
 					<h1>Log in or Sign up</h1>
-
 					<p>
 						Join millions of others in sharing successful moves on
 						HelpMeOut.
