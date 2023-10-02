@@ -24,8 +24,10 @@ export function Home() {
 				</div>
 			</section>
 			<section>
-				<h2>Features</h2>
-				<p>Key Highlights of Our Extension</p>
+				<header>
+					<h2>Features</h2>
+					<p>Key Highlights of Our Extension</p>
+				</header>
 				<div className="container">
 					<div className="">
 						<div className="list">
