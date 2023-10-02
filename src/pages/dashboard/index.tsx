@@ -1,5 +1,6 @@
 import { Nav } from "../../components";
 import "./style.scss";
+import video from "./assets/videoframe.png";
 
 export function DashBoard() {
 	return (
@@ -23,6 +24,108 @@ export function DashBoard() {
 			<section>
 				<div className="container">
 					<h3>Results</h3>
+					<div className="results">
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+						<div className="video">
+							<img
+								src={video}
+								alt=""
+							/>
+							<div className="lower">
+								<h4>How to create Facebook Ad listing</h4>
+								<p>SEPTEMBER 23, 2023</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 		</div>
