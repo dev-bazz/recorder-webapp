@@ -49,5 +49,25 @@ section {
 	.container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		gap: 24px;
+		margin-top: 24px;
+	}
+}
+
+footer {
+	background-color: #120b48;
+	min-height: 246px;
+
+	padding-block: 50px;
+	color: white;
+	.container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
 	}
 }

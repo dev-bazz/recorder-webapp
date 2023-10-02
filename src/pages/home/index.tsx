@@ -103,22 +103,22 @@ export function Home() {
 			</section>
 
 			<footer>
-				<div className="">
+				<div className="container">
 					<div className="logo">LOGO</div>
 					<ul>
-						<li>1</li>
+						<li>Menu</li>
 						<li>2</li>
 						<li>3</li>
 						<li>4</li>
 					</ul>
 					<ul>
-						<li>1</li>
+						<li>About us</li>
 						<li>2</li>
 						<li>3</li>
 						<li>4</li>
 					</ul>
 					<ul>
-						<li>1</li>
+						<li>Screen Record</li>
 						<li>2</li>
 						<li>3</li>
 						<li>4</li>
