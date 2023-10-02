@@ -28,7 +28,9 @@ export function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="features">
+			<section
+				id="f"
+				className="features">
 				<header>
 					<h2>Features</h2>
 					<p>Key Highlights of Our Extension</p>
@@ -89,11 +91,13 @@ export function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="mgLG">
+			<section
+				id="h"
+				className="mgLG">
 				<header>
 					<h2>How it works</h2>
 				</header>
-				<div className="">
+				<div className="container howitworks">
 					<div className="card">
 						<div className="icon">Icon</div>
 						<h3>Record Screen</h3>

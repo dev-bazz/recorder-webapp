@@ -1,5 +1,6 @@
 import "./style.scss";
 import logo from "./assets/helpOutDesktopLogo.png";
+import { Link } from "react-router-dom";
 
 export function Nav() {
 	return (
@@ -12,10 +13,16 @@ export function Nav() {
 					/>
 				</div>
 				<ul>
-					<li>Features</li>
-					<li>How It Works</li>
+					<li>
+						<a href="#f">Features</a>
+					</li>
+					<li>
+						<a href="#h">How It Works</a>
+					</li>
 				</ul>
-				<button>Get Started</button>
+				<button>
+					<Link to={"getStarted"}>Get Started</Link>{" "}
+				</button>
 			</div>
 		</nav>
 	);
