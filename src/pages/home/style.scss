@@ -94,4 +94,13 @@ footer {
 
 .howitworks {
 	display: flex;
+
+	margin-top: 80px;
+
+	.card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
 }
