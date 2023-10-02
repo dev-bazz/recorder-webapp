@@ -107,21 +107,21 @@ export function Home() {
 					<div className="logo">LOGO</div>
 					<ul>
 						<li>Menu</li>
-						<li>2</li>
-						<li>3</li>
-						<li>4</li>
+						<li>Home</li>
+						<li>Converter</li>
+						<li>How it Works</li>
 					</ul>
 					<ul>
 						<li>About us</li>
-						<li>2</li>
-						<li>3</li>
-						<li>4</li>
+						<li>About</li>
+						<li>Contact Us</li>
+						<li>Privacy Policy</li>
 					</ul>
 					<ul>
 						<li>Screen Record</li>
-						<li>2</li>
-						<li>3</li>
-						<li>4</li>
+						<li>Browser Window</li>
+						<li>Desktop</li>
+						<li>Application</li>
 					</ul>
 				</div>
 			</footer>
