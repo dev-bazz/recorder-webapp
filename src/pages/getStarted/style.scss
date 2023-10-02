@@ -40,6 +40,9 @@
 	}
 
 	.social {
+		&:nth-child(2) {
+			margin-top: 18px;
+		}
 		& > a {
 			border: 1px solid black;
 			display: flex;
