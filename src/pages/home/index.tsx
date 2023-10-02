@@ -2,6 +2,10 @@ import { Nav } from "../../components";
 import "./style.scss";
 import heroIMG from "./assets/heroImage.png";
 import videoRepo from "./assets/VideoRepository.png";
+import simpleRecorder from "./assets/simpleRecorder.png";
+import revisit from "./assets/revisit.png";
+import easyShare from "./assets/easyShare.png";
+
 export function Home() {
 	return (
 		<div>
@@ -29,9 +33,14 @@ export function Home() {
 					<p>Key Highlights of Our Extension</p>
 				</header>
 				<div className="container">
-					<div className="">
+					<div className="listWrapper">
 						<div className="list">
-							<span>ICON</span>
+							<span>
+								<img
+									src={simpleRecorder}
+									draggable={false}
+								/>
+							</span>
 							<div className="">
 								<h3>Simple Screen Recording</h3>
 								<p>
@@ -41,22 +50,32 @@ export function Home() {
 							</div>
 						</div>
 						<div className="list">
-							<span>ICON</span>
+							<span>
+								<img
+									src={easyShare}
+									draggable={false}
+								/>
+							</span>
 							<div className="">
-								<h3>Simple Screen Recording</h3>
+								<h3>Easy-to-Share URL</h3>
 								<p>
-									Effortless screen recording for everyone. Record with
-									ease, no tech expertise required.
+									Share your recordings instantly with a single link.
+									No attachments, no downloads.
 								</p>
 							</div>
 						</div>
 						<div className="list">
-							<span>ICON</span>
+							<span>
+								<img
+									src={revisit}
+									draggable={false}
+								/>
+							</span>
 							<div className="">
-								<h3>Simple Screen Recording</h3>
+								<h3>Revisit Recordings</h3>
 								<p>
-									Effortless screen recording for everyone. Record with
-									ease, no tech expertise required.
+									Access and review your past content effortlessly.
+									Your recordings, always at your fingertips.
 								</p>
 							</div>
 						</div>
