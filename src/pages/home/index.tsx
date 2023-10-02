@@ -5,6 +5,7 @@ import videoRepo from "./assets/VideoRepository.png";
 import simpleRecorder from "./assets/simpleRecorder.png";
 import revisit from "./assets/revisit.png";
 import easyShare from "./assets/easyShare.png";
+import whiteLogo from "./assets/whiteLogo.png";
 
 export function Home() {
 	return (
@@ -125,7 +126,12 @@ export function Home() {
 
 			<footer>
 				<div className="container">
-					<div className="logo">LOGO</div>
+					<div className="logo">
+						<img
+							src={whiteLogo}
+							draggable="false"
+						/>
+					</div>
 					<ul>
 						<li>Menu</li>
 						<li>Home</li>
