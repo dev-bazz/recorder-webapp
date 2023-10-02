@@ -1,0 +1,25 @@
+.hero {
+	padding-top: 50px;
+	h1 {
+		font-size: 60px;
+		font-weight: 600;
+	}
+
+	.text {
+		display: grid;
+		place-items: center;
+	}
+	.content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.btn {
+		margin-top: 20px;
+		background-color: #120b48;
+		padding-inline: 24px;
+		padding-block: 22px;
+		color: white;
+		border-radius: 8px;
+	}
+}
