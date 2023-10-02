@@ -69,7 +69,7 @@ export function Home() {
 					</div>
 				</div>
 			</section>
-			<section>
+			<section className="mgLG">
 				<h2>How it works</h2>
 				<div className="">
 					<div className="card">
