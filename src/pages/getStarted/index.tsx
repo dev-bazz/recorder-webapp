@@ -25,7 +25,9 @@ export function GetStarted() {
 				</header>
 				<div className="login">
 					<div className="social">
-						<div className="">
+						<Link
+							to={"/dashboard"}
+							className="">
 							<span>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +50,7 @@ export function GetStarted() {
 								</svg>
 							</span>
 							<span>Continue with Google</span>
-						</div>
+						</Link>
 					</div>
 				</div>
 				<svg

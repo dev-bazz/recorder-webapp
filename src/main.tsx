@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
-import { Home, GetStarted } from "./pages";
+import { Home, GetStarted, DashBoard } from "./pages";
 import {
 	createBrowserRouter,
 	RouterProvider,
@@ -15,6 +15,10 @@ const router = createBrowserRouter([
 	{
 		path: "/getStarted",
 		element: <GetStarted />,
+	},
+	{
+		path: "/dashboard",
+		element: <DashBoard />,
 	},
 ]);
 
