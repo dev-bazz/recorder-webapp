@@ -23,7 +23,7 @@ export function Home() {
 					</div>
 				</div>
 			</section>
-			<section>
+			<section className="features">
 				<header>
 					<h2>Features</h2>
 					<p>Key Highlights of Our Extension</p>
