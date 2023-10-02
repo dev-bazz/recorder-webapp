@@ -70,7 +70,9 @@ export function Home() {
 				</div>
 			</section>
 			<section className="mgLG">
-				<h2>How it works</h2>
+				<header>
+					<h2>How it works</h2>
+				</header>
 				<div className="">
 					<div className="card">
 						<div className="icon">Icon</div>
